@@ -16,6 +16,9 @@ const Paste = () => {
   function handleDelete(pasteId) {
     dispatch(removePastes(pasteId));
   }
+  function handleCopy () {
+    
+  }
 
   return (
     <div>
